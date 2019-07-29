@@ -4,12 +4,14 @@
   "description": "映画料金のモデリング",
   "author": "",
   "license": "ISC",
+  "private": true,
   "bugs": {
     "url": "https://github.com/hiroaki-suzuki/tickt-price-modeling/issues"
   },
   "homepage": "https://github.com/hiroaki-suzuki/tickt-price-modeling#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "dependencies": {
     "jest": "^24.8.0",
@@ -44,7 +46,7 @@
       }
     },
     "testMatch": [
-      "**/tests/*.+(ts|js)"
+      "**/tests/**/*.+(ts|js)"
     ]
   }
 }
